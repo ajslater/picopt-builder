@@ -41,14 +41,14 @@ workflows:
                             - circleci
                             - develop
                             - release
-                            - master
+                            - main
             - deploy:
                 filters:
                     branches:
                         only:
                             - circleci
                             - release
-                            - master
+                            - main
                 requires:
                     - build
     version: 2.1
