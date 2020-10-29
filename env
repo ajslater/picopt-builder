@@ -1,0 +1,4 @@
+REPO=ajslater/picopt-builder
+IMAGE=ajslater/picopt-builder
+BASE_VERSION=3.9
+PKG_VERSION=1.0.0

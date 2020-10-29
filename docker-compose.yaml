@@ -1,0 +1,5 @@
+version: "3.8"
+services:
+  codex-builder:
+    image: ajslater/picopt-builder
+    build: .
